@@ -1,32 +1,27 @@
-import "./App.css";
+import { useState } from "react";
+import viteLogo from "/vite.svg";
 import { Routes, Route, Link } from "react-router-dom";
 import Home from "./pages/Home";
-import Blog from "./pages/Blog";
+import About from "./pages/About";
 import Contact from "./pages/Contact";
+import "./App.css";
+import Thoughts from "./pages/Thoughts";
 
 function App() {
   return (
-    <div>
-      {/* Navigation */}
-      <nav style={{ padding: "1rem", borderBottom: "1px solid #ccc" }}>
-        <Link to="/" style={{ marginRight: "1rem" }}>
-          Home
-        </Link>
-        <Link to="/blog" style={{ marginRight: "1rem" }}>
-          Blog
-        </Link>
-        <Link to="/contact">Contact</Link>
+    <>
+      <nav style={{ marginBottom: "20px" }}>
+        <Link to="/">Home</Link> | <Link to="/about">About</Link> |{" "}
+        <Link to="/thoughts">Thoughts</Link> | <Link to="/contact">Contact</Link>
       </nav>
 
-      {/* Pages */}
-      <div style={{ padding: "1rem" }}>
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/blog" element={<Blog />} />
-          <Route path="/contact" element={<Contact />} />
-        </Routes>
-      </div>
-    </div>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/thoughts" element={<Thoughts />} />
+      </Routes>
+    </>
   );
 }
 

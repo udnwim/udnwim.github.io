@@ -1,3 +1,5 @@
+@import "tailwindcss";
+
 :root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
@@ -5,7 +7,8 @@
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #274472;
+  /* background-color: #1d180c; */
+  background-color: #242424;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -14,12 +17,14 @@
 }
 
 a {
-  font-weight: 500;
-  color: #ffffff;
+  /* font-weight: 700; */
+  /* color: #41729f; */
+  /* color: #dfbd8d; */
   text-decoration: inherit;
 }
 a:hover {
-  color: #c3e0e5;
+  /* color: #869bb6; */
+  /* color: #5885af; */
 }
 
 body {
@@ -47,7 +52,8 @@ button {
   transition: border-color 0.25s;
 }
 button:hover {
-  border-color: #41729f;
+  border-color: #5885AF;
+  /* border-color: #646cff; */
 }
 button:focus,
 button:focus-visible {
@@ -60,9 +66,26 @@ button:focus-visible {
     background-color: #ffffff;
   }
   a:hover {
-    color: #41729f;
+    color: #5885AF;
+    /* color: #747bff; */
   }
   button {
     background-color: #f9f9f9;
   }
+}
+
+.iconContainer a {
+  color: #869bb6;
+}
+
+.iconContainer a:hover {
+  color: #dfbd8d;
+}
+
+.pContainer {
+  text-align: left;
+}
+
+p {
+  margin: 1.5rem;
 }
