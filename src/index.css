@@ -17,7 +17,8 @@
 }
 
 a {
-  /* font-weight: 700; */
+  font-size: large;
+  font-weight: 700;
   /* color: #41729f; */
   /* color: #dfbd8d; */
   text-decoration: inherit;
@@ -36,8 +37,10 @@ body {
 }
 
 h1 {
-  font-size: 3.2em;
+  font-size: 3em;
   line-height: 1.1;
+  color: #D29F54;
+  font-weight: 500;
 }
 
 button {
@@ -80,12 +83,14 @@ button:focus-visible {
 
 .iconContainer a:hover {
   color: #dfbd8d;
-}
-
-.pContainer {
-  text-align: left;
+  
 }
 
 p {
-  margin: 1.5rem;
+  text-align: left;
+  margin: 1.5rem 0;
+}
+
+img {
+  border-radius: 5%;
 }

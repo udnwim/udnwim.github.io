@@ -11,9 +11,13 @@ function App() {
   return (
     <>
       <nav style={{ marginBottom: "20px" }}>
-        <Link to="/">Home</Link> | <Link to="/about">About</Link> |{" "}
-        <Link to="/thoughts">Thoughts</Link> | <Link to="/contact">Contact</Link>
+        <Link to="/" className="text-[#6B8DAF]">Home</Link> |{" "}
+        <Link to="/about" className="text-[#F3CD89]">About</Link> |{" "}
+        <Link to="/thoughts" className="text-[#6B8DAF]">Thoughts</Link> |{" "}
+        <Link to="/contact" className="text-[#F3CD89]">Contact</Link>
       </nav>
+      <hr className="bg-[#EAC4C3]/70 my-3 h-[1px] border-0 rounded"/>
+      {/* <hr className="bg-slate-50/30 my-3 h-[1px] border-0 rounded"/> */}
 
       <Routes>
         <Route path="/" element={<Home />} />
