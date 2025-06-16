@@ -24,7 +24,7 @@ export default function Thoughts() {
             className={`cursor-pointer w-30 sm:w-38 md:w-48 mx-2 rounded-lg shadow-md shadow-sky-200/50 transition-opacity duration-300 ${fadeOut ? "opacity-0" : "opacity-100"}`} />
         )}
       </div>
-      <div className="pContainer">
+      <div className="pContainer sm:text-base md:text-lg">
         <CollapsibleSection title="Personal Experience Using ChatGPT and Similar AI Tools" >
           <p>As technology advances, AI has become a close companion in my daily life. I use it every day — not only to answer questions when I'm stuck studying, but also to get tons of helpful life tips. </p>
           <p>However, there's one thing that bothers me. If you've had the same experience, you might relate to this:</p>
@@ -34,7 +34,7 @@ export default function Thoughts() {
           <div className="container flex justify-center pt-6 pb-6">
             <img src={idea} alt="Image" width="500" className='outline rounded-lg' />
           </div>
-          <p>Imagine if, while reading, you could simply tap on a word or phrase — or even just touch anywhere on the screen — to bring up a small pop-up chat box? You could ask your question right there without losing your place. No more endless scrolling or switching between apps. Some AI-enabled smartphones already offer similar features. I believe this kind of functionality has great potential to enhance productivity.</p>
+          <p>Imagine if, while reading, you could simply tap on a word or phrase — or even just touch anywhere on the screen — to bring up a <span className='font-bold'>small pop-up chat box</span>? You could ask your question right there without losing your place. No more endless scrolling or switching between apps. Some AI-enabled smartphones already offer similar features. I believe this kind of functionality has great potential to enhance productivity.</p>
         </CollapsibleSection>
       </div>
     </>
