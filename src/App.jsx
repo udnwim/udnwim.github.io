@@ -11,25 +11,25 @@ function App() {
       <div className="container pt-2 sticky top-0 z-50 bg-[#242424]">
         <nav className="flex justify-center">
           <div className="relative group hover:-translate-y-0.5 transition-transform duration-500">
-            <Link to="/" className="relative z-10 text-[#6B8DAF] font-semibold px-2 hover:text-[#EAC4C3]">
+            <Link to="/" className="relative z-10 text-[#6B8DAF] font-semibold px-2 hover:text-[#e6e1da]">
               Home
             </Link>
             <span className="absolute left-1/2 top-1/2 h-full w-0 -translate-x-1/2 -translate-y-1/2 bg-[#EAC4C3] opacity-20 transition-all duration-500 group-hover:w-full rounded" />
           </div>|
           <div className="relative group hover:-translate-y-0.5 transition-transform duration-500">
-            <Link to="/about" className="relative z-10 text-[#F3CD89] font-semibold px-2 hover:text-[#EAC4C3]">
+            <Link to="/about" className="relative z-10 text-[#F3CD89] font-semibold px-2 hover:text-[#e6e1da]">
               About
             </Link>
             <span className="absolute left-1/2 top-1/2 h-full w-0 -translate-x-1/2 -translate-y-1/2 bg-[#EAC4C3] opacity-30 transition-all duration-500 group-hover:w-full rounded" />
           </div>|
           <div className="relative group hover:-translate-y-0.5 transition-transform duration-500">
-            <Link to="/thoughts" className="relative z-10 text-[#6B8DAF] font-semibold px-2 hover:text-[#EAC4C3]">
+            <Link to="/thoughts" className="relative z-10 text-[#6B8DAF] font-semibold px-2 hover:text-[#e6e1da]">
               Thoughts
             </Link>
             <span className="absolute left-1/2 top-1/2 h-full w-0 -translate-x-1/2 -translate-y-1/2 bg-[#EAC4C3] opacity-20 transition-all duration-500 group-hover:w-full rounded" />
           </div>|
           <div className="relative group hover:-translate-y-0.5 transition-transform duration-500">
-            <Link to="/contact" className="relative z-10 text-[#F3CD89] font-semibold px-2 hover:text-[#EAC4C3]">
+            <Link to="/contact" className="relative z-10 text-[#F3CD89] font-semibold px-2 hover:text-[#e6e1da]">
               Contact
             </Link>
             <span className="absolute left-1/2 top-1/2 h-full w-0 -translate-x-1/2 -translate-y-1/2 bg-[#EAC4C3] opacity-30 transition-all duration-500 group-hover:w-full rounded" />

@@ -1,8 +1,8 @@
-import React from 'react'
 import { useState } from 'react'
 import CollapsibleSection from './CollapsibleSection'
 import idea from "../assets/thought.png"
 import thinking from "../assets/Disney Think GIF by Mickey Mouse.gif"
+import pearl from "../assets/pearl.png"
 
 export default function Thoughts() {
   const [visible, setVisible] = useState(true)
@@ -15,7 +15,7 @@ export default function Thoughts() {
   
   return (
     <>
-      <div className="flex items-center justify-center font-mono">
+      {/* <div className="flex items-center justify-center font-mono">
         {visible && (
           <img 
             src={thinking} 
@@ -23,8 +23,13 @@ export default function Thoughts() {
             onClick={handleClick} 
             className={`cursor-pointer w-30 sm:w-38 md:w-48 mx-2 rounded-lg shadow-md shadow-sky-200/50 transition-opacity duration-300 ${fadeOut ? "opacity-0" : "opacity-100"}`} />
         )}
-      </div>
+      </div> */}
       <div className="pContainer sm:text-base md:text-lg">
+        <CollapsibleSection title="Webpage Color Inspiration">
+          <div className="flex justify-center relative group">
+            <img src={pearl} alt="img" className='sm:w-xs max-w-xs' />
+          </div>
+        </CollapsibleSection>
         <CollapsibleSection title="Personal Experience Using ChatGPT and Similar AI Tools" >
           <p>As technology advances, AI has become a close companion in my daily life. I use it every day — not only to answer questions when I'm stuck studying, but also to get tons of helpful life tips. </p>
           <p>However, there's one thing that bothers me. If you've had the same experience, you might relate to this:</p>
@@ -36,6 +41,7 @@ export default function Thoughts() {
           </div>
           <p>Imagine if, while reading, you could simply tap on a word or phrase — or even just touch anywhere on the screen — to bring up a <span className='font-bold'>small pop-up chat box</span>? You could ask your question right there without losing your place. No more endless scrolling or switching between apps. Some AI-enabled smartphones already offer similar features. I believe this kind of functionality has great potential to enhance productivity.</p>
         </CollapsibleSection>
+
       </div>
     </>
       
