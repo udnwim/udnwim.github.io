@@ -7,8 +7,8 @@ import work from "../assets/work.jpg"
 export default function About() {
   return (
     <>
-      <div className="scrollbar-hide max-w-2xl indent-8 text-lg md:text-xl flex justify-center flex-wrap text-left">
-        <div className="intro min-h-screen">
+      <div className="scrollbar-hide px-10 max-w-2xl indent-8 text-lg md:text-xl flex justify-center flex-wrap text-left">
+        <div className="intro min-h-screen flex flex-col items-center justify-center">
           <img src={profilePic} alt="img"
               className="mx-auto w-full max-w-lg rounded-full shadow-lg shadow-[#EAC4C3]"
             />
