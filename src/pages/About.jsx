@@ -7,22 +7,20 @@ import work from "../assets/work.jpg"
 export default function About() {
   return (
     <>
-      <div className="aboutContainer scrollbar-hide m-5 max-w-3xl indent-8 text-lg md:text-xl">
-        <div className="intro flex items-center justify-center min-h-screen py-2">
-          <div className="text-center">
-            <img src={profilePic} alt="img"
+      <div className="scrollbar-hide max-w-2xl indent-8 text-lg md:text-xl flex justify-center flex-wrap text-left">
+        <div className="intro min-h-screen">
+          <img src={profilePic} alt="img"
               className="mx-auto w-full max-w-lg rounded-full shadow-lg shadow-[#EAC4C3]"
             />
-            <div className="flex justify-center w-full m-0">
-              <p>Hi! I am Hui.👋</p>
-            </div>
-          </div>
+          <p className="text-center">Hi! I am Hui.👋</p>
         </div>
-        <div className="intro flex items-center my-10 py-10 px-10">
-          <div className="">
+        <div className="intro py-10 flex flex-wrap">
+          <div className="w-2xs sm:w-sm">
             <img src={campus} alt="img"
-              className="mx-auto mb-10 w-full max-w-lg rounded-lg shadow-lg shadow-[#EAC4C3]"
+              className="mx-auto w-full max-w-lg rounded-lg shadow-lg shadow-[#EAC4C3]"
             />
+          </div>
+          <div className="w-2xs pl-10">
             <p>
               Originally from China, I moved to the United States after completing
               junior high school. In 2024, I earned my bachelor's degree from the
@@ -31,7 +29,7 @@ export default function About() {
             </p>
           </div>
         </div>
-        <div className="intro flex items-center my-10 py-15 px-10">
+        <div className="intro py-10">
           <div className="">
             <img src={coding} alt="img"
               className="mx-auto w-full max-w-xl rounded-full"
@@ -46,7 +44,7 @@ export default function About() {
             </p>
           </div>
         </div>
-        <div className="intro flex items-center my-10 py-15 px-10">
+        <div className="intro py-10">
           <div className="">
             <img src={work} alt="img"
               className="mx-auto w-full max-w-xl rounded-full"
@@ -59,7 +57,7 @@ export default function About() {
             </p>
           </div>
         </div>
-        <div className="intro flex items-center my-10 py-15 px-10">
+        <div className="intro py-10">
           <div className="">
             <img src={up} alt="img"
               className="mx-auto w-full max-w-xs rounded-full"
@@ -74,6 +72,7 @@ export default function About() {
           </div>
         </div>
       </div>
+
     </>
   )
 }

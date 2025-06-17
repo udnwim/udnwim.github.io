@@ -24,7 +24,7 @@ export default function Thoughts() {
             className={`cursor-pointer w-30 sm:w-38 md:w-48 mx-2 rounded-lg shadow-md shadow-sky-200/50 transition-opacity duration-300 ${fadeOut ? "opacity-0" : "opacity-100"}`} />
         )}
       </div> */}
-      <div className="pContainer sm:text-base md:text-lg">
+      <div className="text-left sm:text-base md:text-lg">
         <CollapsibleSection title="Webpage Color Inspiration">
           <div className="flex justify-center relative group">
             <img src={pearl} alt="img" className='w-full max-w-xs' />

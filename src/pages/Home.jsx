@@ -17,7 +17,6 @@ export default function AnimatedSentence() {
           return updated
         })
 
-      
       setHighlighted(prev => {
         const updated = [...prev];
         updated[i] = true;
