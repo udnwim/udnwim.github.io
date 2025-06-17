@@ -2,26 +2,26 @@ import profilePic from "../assets/profile1.jpg";
 import campus from "../assets/umb.png";
 import coding from "../assets/coding.png";
 import up from "../assets/up.jpg";
-import group from "../assets/group.jpg"
+import work from "../assets/work.jpg"
 
 export default function About() {
   return (
     <>
-      <div className="aboutContainer scrollbar-hide m-5 max-w-3xl indent-8">
-        <div className="intro flex items-center justify-center min-h-screen sm:text-lg md:text-lg py-2">
+      <div className="aboutContainer scrollbar-hide m-5 max-w-3xl indent-8 text-lg md:text-xl">
+        <div className="intro flex items-center justify-center min-h-screen py-2">
           <div className="text-center">
             <img src={profilePic} alt="img"
-              className="mx-auto w-full max-w-xl rounded-full shadow-lg shadow-[#EAC4C3]"
+              className="mx-auto w-full max-w-lg rounded-full shadow-lg shadow-[#EAC4C3]"
             />
             <div className="flex justify-center w-full m-0">
               <p>Hi! I am Hui.👋</p>
             </div>
           </div>
         </div>
-        <div className="intro flex items-center my-10 py-10 sm:text-lg md:text-lg px-10">
+        <div className="intro flex items-center my-10 py-10 px-10">
           <div className="">
             <img src={campus} alt="img"
-              className="mx-auto px-3 mb-10 w-full max-w-lg rounded-lg shadow-lg shadow-[#EAC4C3]"
+              className="mx-auto mb-10 w-full max-w-lg rounded-lg shadow-lg shadow-[#EAC4C3]"
             />
             <p>
               Originally from China, I moved to the United States after completing
@@ -31,7 +31,7 @@ export default function About() {
             </p>
           </div>
         </div>
-        <div className="intro flex items-center my-10 py-15 sm:text-lg md:text-lg px-10">
+        <div className="intro flex items-center my-10 py-15 px-10">
           <div className="">
             <img src={coding} alt="img"
               className="mx-auto w-full max-w-xl rounded-full"
@@ -46,9 +46,9 @@ export default function About() {
             </p>
           </div>
         </div>
-        <div className="intro flex items-center my-10 py-15 sm:text-lg md:text-lg px-10">
+        <div className="intro flex items-center my-10 py-15 px-10">
           <div className="">
-            <img src={group} alt="img"
+            <img src={work} alt="img"
               className="mx-auto w-full max-w-xl rounded-full"
             />
             <p>
@@ -59,18 +59,18 @@ export default function About() {
             </p>
           </div>
         </div>
-        <div className="intro flex items-center min-h-screen sm:text-lg md:text-lg">
+        <div className="intro flex items-center my-10 py-15 px-10">
           <div className="">
+            <img src={up} alt="img"
+              className="mx-auto w-full max-w-xs rounded-full"
+            />
             <p>
               Currently, I'm pursuing opportunities as a <span className="text-[#F3CD89] font-bold">Front-End Developer</span>. This
-              website is one of the projects I've built using <span className="underline text-[#EAC4C3]">HTML</span>, <span className="underline text-[#EAC4C3]">CSS</span>, <span className="underline text-[#EAC4C3]">JavaScript</span>,
-              <span className="underline text-[#EAC4C3]">Tailwind CSS</span>, and <span className="underline text-[#EAC4C3]">React</span>. I'm also diving into backend development and
-              have several ideas for future projects that combine both front-end and
-              back-end technologies. I'm excited to contribute to a team where I can grow, create meaningful user experiences, and continue learning in the ever-evolving tech industry.
+              website is one of the projects I've built using <span className="underline text-[#EAC4C3]">HTML</span>, <span className="underline text-[#EAC4C3]">CSS</span>, <span className="underline text-[#EAC4C3]">JavaScript</span>, <span> </span>
+              <span className="underline text-[#EAC4C3]">Tailwind CSS</span>,<span> </span> and <span className="underline text-[#EAC4C3]">React</span>. I'm also diving into backend development and
+              have several ideas for future projects that combine both <span className="font-bold text-[#6B8DAF]">front-end</span> and <span className="font-bold text-[#6B8DAF]">back-end </span>
+              technologies. I'm excited to contribute to a team where I can grow, create meaningful user experiences, and continue learning in the ever-evolving tech industry.
             </p>
-            <img src={up} alt="img"
-              className="mx-auto w-sm max-w-xl rounded-full"
-            />
           </div>
         </div>
       </div>

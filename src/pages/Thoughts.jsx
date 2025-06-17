@@ -27,7 +27,7 @@ export default function Thoughts() {
       <div className="pContainer sm:text-base md:text-lg">
         <CollapsibleSection title="Webpage Color Inspiration">
           <div className="flex justify-center relative group">
-            <img src={pearl} alt="img" className='sm:w-xs max-w-xs' />
+            <img src={pearl} alt="img" className='w-full max-w-xs' />
           </div>
         </CollapsibleSection>
         <CollapsibleSection title="Personal Experience Using ChatGPT and Similar AI Tools" >

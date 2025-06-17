@@ -9,7 +9,7 @@ function App() {
   return (
     <>
       <div className="container pt-2 sticky top-0 z-50 bg-[#242424]">
-        <nav className="flex justify-center">
+        <nav className="flex justify-center text-2xl">
           <div className="relative group hover:-translate-y-0.5 transition-transform duration-500">
             <Link to="/" className="relative z-10 text-[#6B8DAF] font-semibold px-2 hover:text-[#e6e1da]">
               Home
