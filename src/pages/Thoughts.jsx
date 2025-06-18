@@ -24,7 +24,7 @@ export default function Thoughts({ navbarRef }) {
             className={`cursor-pointer w-30 sm:w-38 md:w-48 mx-2 rounded-lg shadow-md shadow-sky-200/50 transition-opacity duration-300 ${fadeOut ? "opacity-0" : "opacity-100"}`} />
         )}
       </div> */}
-      <div className="text-left sm:text-base md:text-lg px-8">
+      <div className="text-left sm:text-base md:text-lg px-8 pb-15">
         <CollapsibleSection title="Webpage Color Inspiration" navbarRef={navbarRef}>
           <div className="flex justify-center relative group">
             <img src={pearl} alt="img" className='w-60 sm:w-xs max-w-xs' />

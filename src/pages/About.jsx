@@ -14,13 +14,13 @@ export default function About() {
             />
           <p className="text-center">Hi! I am Hui.👋</p>
         </div>
-        <div className="intro py-10 flex flex-wrap">
-          <div className="w-2xs sm:w-sm">
+        <div className="intro py-10">
+          <div className="">
             <img src={campus} alt="img"
-              className="mx-auto w-full max-w-lg rounded-lg shadow-lg shadow-[#EAC4C3]"
+              className="mx-auto mb-10 w-full max-w-md rounded-lg shadow-lg shadow-[#EAC4C3]"
             />
           </div>
-          <div className="w-2xs pl-10">
+          <div className="">
             <p>
               Originally from China, I moved to the United States after completing
               junior high school. In 2024, I earned my bachelor's degree from the
@@ -32,23 +32,25 @@ export default function About() {
         <div className="intro py-10">
           <div className="">
             <img src={coding} alt="img"
-              className="mx-auto w-full max-w-xl rounded-full"
+              className="mx-auto w-full max-w-md rounded-full"
             />
-            <p>
-              Throughout my academic journey, I completed challenging coursework in <span> </span>
-              <span className="underline text-[#F3CD89]">JavaScript</span>, <span className="underline text-[#F3CD89]">Python</span>, <span className="underline text-[#F3CD89]">C</span>, <span className="underline text-[#F3CD89]">Java</span>, and more. Tackling these problem sets not
-              only strengthened my understanding of each language's structure but also
-              sharpened my ability to think critically and develop efficient
-              solutions. Programming isn't always easy, but I find it incredibly
-              rewarding and intellectually stimulating.
-            </p>
+            <div className="">
+              <p>
+                Throughout my academic journey, I completed challenging coursework in <span> </span>
+                <span className="underline text-[#F3CD89]">JavaScript</span>, <span className="underline text-[#F3CD89]">Python</span>, <span className="underline text-[#F3CD89]">C</span>, <span className="underline text-[#F3CD89]">Java</span>, and more. Tackling these problem sets not
+                only strengthened my understanding of each language's structure but also
+                sharpened my ability to think critically and develop efficient
+                solutions. Programming isn't always easy, but I find it incredibly
+                rewarding and intellectually stimulating.
+              </p>
+            </div>
           </div>
         </div>
         <div className="intro py-10">
+          <img src={work} alt="img"
+            className="mx-auto w-full max-w-lg rounded-full"
+          />
           <div className="">
-            <img src={work} alt="img"
-              className="mx-auto w-full max-w-xl rounded-full"
-            />
             <p>
               After graduation, I worked as an Office Associate at a wholesale
               company. In this role, I managed bookkeeping tasks using <a href="https://quickbooks.intuit.com/" className="text-[#0a8543] font-bold">QuickBooks </a>
@@ -62,13 +64,15 @@ export default function About() {
             <img src={up} alt="img"
               className="mx-auto w-full max-w-xs rounded-full"
             />
-            <p>
-              Currently, I'm pursuing opportunities as a <span className="text-[#F3CD89] font-bold">Front-End Developer</span>. This
-              website is one of the projects I've built using <span className="underline text-[#EAC4C3]">HTML</span>, <span className="underline text-[#EAC4C3]">CSS</span>, <span className="underline text-[#EAC4C3]">JavaScript</span>, <span> </span>
-              <span className="underline text-[#EAC4C3]">Tailwind CSS</span>,<span> </span> and <span className="underline text-[#EAC4C3]">React</span>. I'm also diving into backend development and
-              have several ideas for future projects that combine both <span className="font-bold text-[#6B8DAF]">front-end</span> and <span className="font-bold text-[#6B8DAF]">back-end </span>
-              technologies. I'm excited to contribute to a team where I can grow, create meaningful user experiences, and continue learning in the ever-evolving tech industry.
-            </p>
+            <div className="">
+              <p>
+                Currently, I'm pursuing opportunities as a <span className="text-[#F3CD89] font-bold">Front-End Developer</span>. This
+                website is one of the projects I've built using <span className="underline text-[#EAC4C3]">HTML</span>, <span className="underline text-[#EAC4C3]">CSS</span>, <span className="underline text-[#EAC4C3]">JavaScript</span>, <span> </span>
+                <span className="underline text-[#EAC4C3]">Tailwind CSS</span>,<span> </span> and <span className="underline text-[#EAC4C3]">React</span>. I'm also diving into backend development and
+                have several ideas for future projects that combine both <span className="font-bold text-[#6B8DAF]">front-end</span> and <span className="font-bold text-[#6B8DAF]">back-end </span>
+                technologies. I'm excited to contribute to a team where I can grow, create meaningful user experiences, and continue learning in the ever-evolving tech industry.
+              </p>
+            </div>
           </div>
         </div>
       </div>
