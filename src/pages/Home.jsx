@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 
 export default function AnimatedSentence() {
+  // To do: add a profile
   const sentence = "Welcome to My Site !";
   const words = sentence.split(" ");
 
