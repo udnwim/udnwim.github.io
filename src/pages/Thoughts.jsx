@@ -36,7 +36,7 @@ export default function Thoughts({ navbarRef }) {
           <p>Let's say you suddenly wonder what happened 50 years ago today. You open ChatGPT and type in your question. It gives you a list of historical events—then something catches your eye: The Beatles released an album exactly 50 years ago. Curious, you ask, "Tell me more about The Beatles."</p>
           <p>The moment you hit "Enter," the screen jumps to the bottom, cutting off the flow of what you were just reading. You have not finished exploring the other events from that time, and now you have to scroll all the way back up to find where you left off.</p>
           <p>Personally, I find that a little frustrating. Back in the day, before AI became popular, I used Google for everything. If I had a random thought, I'd open a new tab, search, and still keep my original search in another tab. But with chatbots like ChatGPT, this kind of spontaneous exploration doesn't feel as smooth. So here's something I've been thinking about:</p>
-          <div className="container flex justify-center pt-6 pb-6">
+          <div className="container flex justify-center pt-6">
             <img src={idea} alt="Image" className='outline rounded-lg w-full max-w-lg' />
           </div>
           <p>Imagine if, while reading, you could simply tap on a word or phrase — or even just touch anywhere on the screen — to bring up a <span className='font-bold'>small pop-up chat box</span>? You could ask your question right there without losing your place. No more endless scrolling or switching between apps. Some AI-enabled smartphones already offer similar features. I believe this kind of functionality has great potential to enhance productivity.</p>
