@@ -67,7 +67,7 @@ export default function About() {
             />
             <div className="">
               <p>
-                Currently, I'm pursuing opportunities as a <span className="text-[#F3CD89] font-bold">Front-End Developer</span>. This
+                Currently, I'm pursuing opportunities as a <span className="text-[#F3CD89] font-bold">Software Engineer</span>. This
                 website is one of the projects I've built using <span className="underline text-[#EAC4C3]">HTML</span>, <span className="underline text-[#EAC4C3]">CSS</span>, <span className="underline text-[#EAC4C3]">JavaScript</span>, <span> </span>
                 <span className="underline text-[#EAC4C3]">Tailwind CSS</span>,<span> </span> and <span className="underline text-[#EAC4C3]">React</span>. I'm also diving into backend development and
                 have several ideas for future projects that combine both <span className="font-bold text-[#6B8DAF]">front-end</span> and <span className="font-bold text-[#6B8DAF]">back-end </span>
