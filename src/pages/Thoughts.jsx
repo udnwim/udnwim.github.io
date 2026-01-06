@@ -1,17 +1,17 @@
-import { useState } from 'react'
+// import { useState } from 'react'
 import CollapsibleSection from './CollapsibleSection'
 import idea from "../assets/thought.png"
-import thinking from "../assets/Disney Think GIF by Mickey Mouse.gif"
+// import thinking from "../assets/Disney Think GIF by Mickey Mouse.gif"
 import pearl from "../assets/pearl.png"
 
 export default function Thoughts({ navbarRef }) {
-  const [visible, setVisible] = useState(true)
-  const [fadeOut, setFadeOut] = useState(false)
+  // const [visible, setVisible] = useState(true)
+  // const [fadeOut, setFadeOut] = useState(false)
 
-  const handleClick = () => {
-    setFadeOut(true)
-    setTimeout(() => setVisible(false), 300) // duration matches the CSS transition
-  };
+  // const handleClick = () => {
+  //   setFadeOut(true)
+  //   setTimeout(() => setVisible(false), 300) // duration matches the CSS transition
+  // };
   
   return (
     <>
