@@ -55,7 +55,7 @@ export default function About() {
             <p>
               After graduation, I worked as an Office Associate at a wholesale
               company. In this role, I managed bookkeeping tasks using <a href="https://quickbooks.intuit.com/" className="text-[#0a8543] font-bold">QuickBooks </a>
-              while also providing <span> </span><span className="underline text-[#EAC4C3]">IT support</span>, ensuring smooth operation of all
+              while also providing some <span> </span><span className="underline text-[#EAC4C3]">IT support</span>, ensuring smooth operation of all
               workstations to help maintain business productivity.
             </p>
           </div>

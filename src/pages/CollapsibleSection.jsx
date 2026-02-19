@@ -48,7 +48,10 @@ function CollapsibleSection({ title, children, navbarRef }) {
   return (
     <section
       ref={sectionRef}
-      className="border border-[#e6e1da] py-4 px-6 mx-2 rounded-lg max-w-2xl my-4"
+      className="
+      border border-[#e6e1da] rounded-lg
+      py-4 px-3 mx-2 my-4
+      sm:w-sm md:w-md lg:w-2xl"
     >
       <button
         className="w-full text-left font-semibold text-xl flex justify-between items-center focus:outline-none"

@@ -2,7 +2,7 @@ import { Routes, Route, Link } from "react-router-dom";
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
-import Thoughts from "./pages/Thoughts";
+import Thoughts from "./pages/Projects";
 import "./App.css";
 import { useRef } from "react";
 
@@ -27,7 +27,7 @@ function App() {
           </div>|
           <div className="relative group hover:-translate-y-0.5 transition-transform duration-500">
             <Link to="/thoughts" className="relative z-10 text-[#6B8DAF] font-semibold px-2 hover:text-[#e6e1da]">
-              Thoughts
+              Projects
             </Link>
             <span className="absolute left-1/2 top-1/2 h-full w-0 -translate-x-1/2 -translate-y-1/2 bg-[#EAC4C3] opacity-20 transition-all duration-500 group-hover:w-full rounded" />
           </div>|
